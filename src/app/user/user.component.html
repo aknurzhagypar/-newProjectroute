@@ -1,0 +1,17 @@
+<form [formGroup]="user">
+  <div fxFlex="50" class="pr-1">
+    <mat-form-field class="full-width">
+      <input type="text" matInput formControlName="firstName" placeholder="firstName"><br>
+    </mat-form-field>
+  </div>
+  <div fxFlex="50" class="pr-1">
+    <mat-form-field class="full-width">
+      <input type="text" matInput formControlName="firstName" placeholder="lastName"><br>
+    </mat-form-field>
+  </div>
+  <div fxFlex="50" class="pr-1">
+    <mat-form-field class="full-width">
+      <button  (click)="create()">REGISTER</button>
+    </mat-form-field>
+  </div>
+</form>
